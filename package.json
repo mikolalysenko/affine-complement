@@ -1,0 +1,35 @@
+{
+  "name": "affine-complement",
+  "version": "1.0.0",
+  "description": "Finds a basis for the affine complement of a set of points",
+  "main": "acomp.js",
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "dependencies": {
+    "robust-orientation": "^1.1.3"
+  },
+  "devDependencies": {
+    "tape": "^3.0.3"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mikolalysenko/affine-complement.git"
+  },
+  "keywords": [
+    "affine",
+    "complement",
+    "hull",
+    "geometry"
+  ],
+  "author": "Mikola Lysenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikolalysenko/affine-complement/issues"
+  },
+  "homepage": "https://github.com/mikolalysenko/affine-complement"
+}
